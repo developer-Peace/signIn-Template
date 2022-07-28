@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <title>signInTemplate</title>
+</head>
+<body>
+  <div class="container" > 
+    <div class="row" >
+      <div class="col-8">
+        <form class="form" >
+          <h2 class="label" > FirstName:</h2>
+          <input type="text" placeholder="firstname" id="firstName" class="inputField" >
+          <h2 class="label" > LasstName:</h2>
+          <input type="text" placeholder="lastname" id="lastName" class="inputField" >
+          <h2 class="label" > Pick a Username:</h2>
+          <input type="text" placeholder="enter a unique username" id="setUsername" class="inputField" >
+          <h2 class="label" > Enter Password:</h2>
+          <input type="password" placeholder="Enter Password" id="setPassword" class="inputField" >
+          <h2 class="label" > Confirm Password:</h2>
+          <input type="password" placeholder="Confirm Password" id="confirmPassword" class="inputField" >
+          <button class="submit" onclick="signUp()" >Sign Up</button>
+  				<a href="signIn.html" class="signInBtn" >Sign In</a>
+        </form>
+				
+				<span class="toRegister" >Already have an account? <a href="signIn.html">sign in.</a></span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

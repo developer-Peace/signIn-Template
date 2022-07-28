@@ -1,0 +1,19 @@
+{
+  "name": "sign-in_template",
+  "version": "1.0.0",
+  "description": "A sign in page based on node and mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developer-Peace/loginPage-TEMPLATE.git"
+  },
+  "author": "peace-olawale-fullstack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developer-Peace/loginPage-TEMPLATE/issues"
+  },
+  "homepage": "https://github.com/developer-Peace/loginPage-TEMPLATE#readme"
+}
